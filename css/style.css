@@ -74,11 +74,17 @@ li {
 
 .container-aside li {
   color: black;
+  margin: 0;
+  padding: 0.2em;
 }
 
 .container-aside h2 {
   color: black;
   font-size: 20px
+}
+
+.container-aside {
+  padding-top: 20px;
 }
 
 a {
@@ -109,15 +115,16 @@ a:hover {
 
 .main {
   width: 100%;
+  margin-bottom: 30px;
 }
 
 
 aside {
-  width: 20%;
+  width: 19%;
   float: right;
-  clear: right;
-  vertical-align: top;
   display: inline-block;
+  margin-top: 30px;
+
 }
 
 p {
